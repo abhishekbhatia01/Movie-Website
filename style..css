@@ -1,0 +1,218 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-img {
+  background-image: url(/Images/banner.png);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+}
+
+.nav1 {
+  position: relative;
+  margin-top: -593px;
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  border: 1px;
+  border-radius: 20px;
+}
+.nav-ym {
+  background-image: url(/youm/Images/images-removebg-preview.png);
+  height: 100px;
+  width: 100px;
+  padding-left: 20px;
+  background-size: cover;
+  cursor: pointer;
+  margin-top: -18px;
+}
+.nav-button {
+  padding-top: 30px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.nav-button ul li {
+  display: inline;
+  padding: 20px;
+  margin-left: 30px;
+  color: white;
+}
+
+.search-bar {
+  margin-top: 23px;
+  display: flex;
+}
+input {
+  border-radius: 8px;
+  flex-grow: 1;
+  height: 32px;
+  width: 250px;
+  color: wheat;
+  border: 0px;
+  background-color: #232424;
+}
+.sicon {
+  padding-left: 2px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 6px;
+}
+::placeholder {
+  color: white;
+}
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  padding-top: 180px;
+  padding-left: 200px;
+  font-size: 50px;
+  font-weight: 150;
+}
+.ftext {
+  margin-top: 15px;
+  margin-left: 200px;
+  color: white;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+}
+.wnow button {
+  height: 40px;
+  width: 130px;
+  margin-left: 220px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  background-color: #00a2ff;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+.wnow button:hover {
+  transform: scale(1.2);
+  background-color: #00c3ff;
+}
+.info {
+  margin-top: 200px;
+}
+.info2 {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.info {
+  height: 200px;
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 300px;
+  display: flex;
+}
+.info1 img {
+  height: 45px;
+}
+.in {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.in1 {
+  color: #3f4245;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.blue {
+  background-color: #00a2ff;
+  height: 600px;
+  width: 100%;
+  margin-top: 40px;
+}
+.discover {
+  display: flex;
+}
+.discover-text {
+  margin-top: -480px;
+  height: 300px;
+  width: 350px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 160px;
+}
+.discover-text1 {
+  font-size: 30px;
+}
+.discover-text2 {
+  font-weight: 450;
+}
+.discover img {
+  height: 430px;
+  margin-top: -500px;
+  margin-left: 300px;
+}
+.discover-text button {
+  height: 45px;
+  width: 180px;
+  margin-left: 10px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  background-color: rgb(53, 51, 51);
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+.discover-text button:hover {
+  transform: scale(1.2);
+  background-color: black;
+}
+.watch-free {
+  background-color: #fcfbf5;
+  height: 700px;
+  display: flex;
+}
+.watch-img img {
+  height: 560px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.watch-text {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+.watch-text1 {
+  font-size: 30px;
+}
+.watcht {
+  margin-top: 30px;
+}
+.watch-text2 {
+  padding-block: 3px;
+  font-weight: 300;
+}
+.watch-free button {
+  height: 45px;
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  background-color: rgb(53, 51, 51);
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+.watch-free button:hover {
+  transform: scale(1.2);
+  background-color: black;
+}
